@@ -1,0 +1,220 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: "Verdana", sans-serif;
+    font-size: 14px;
+    background: #0d202f none repeat scroll 0 0;
+    /* Margin bottom by footer height */
+    margin-bottom: 50px;
+}
+
+/* common */
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.blackBg {
+    background-color: #000;
+}
+
+.floatNone {
+    float: none!important;
+}
+
+.successMsg {
+    color: green;
+}
+
+.errorMsg {
+    color: red;
+}
+/* common */
+
+
+/* header area */
+.title {
+    text-shadow: 1px 2px 3px lightblue;
+}
+
+.headerText h2 {
+    color: #fff;
+    text-shadow: 1px 2px 4px;
+}
+
+.headerText p {
+    color: #ffffff;
+    padding: 15px;
+    font-size: 30px;
+    transition: all 0.3s ease 0s;
+}
+
+.headerText p:hover {
+    text-shadow: 1px 2px 4px;
+}
+
+/*.title {*/
+    /*text-align: center;*/
+    /*text-shadow: 1px 1px 8px lightblue;*/
+/*}*/
+/* header area */
+
+/* table */
+table {
+    background: #fff;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+table th, td {
+    text-align: center;
+}
+/* table */
+
+/* form */
+label, .radio, .checkbox, .whiteText {
+    color: #fff;
+}
+/* form */
+
+
+/* custom for bootstrap navigation */
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+/* custom for bootstrap navigation */
+
+
+/* nav bar */
+.navbarBg, #creditArea {
+    background: #061421 none repeat scroll 0 0!important;
+}
+
+
+ul.crudNav li > a {
+    color: #ffffff;
+}
+
+.nav.navbar-nav.crudNav li:hover a, .nav.navbar-nav.crudNav li ul li a {
+    background-color: #0d202f;
+}
+
+.nav.navbar-nav.crudNav li.open a {
+    background-color: #0d202f!important;
+}
+
+.dropdown-menu {
+    background-color: #0d202f;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+/* nav bar */
+
+
+/* footer area */
+#creditArea {
+    /*margin: 10px 0 0 0;*/
+}
+
+.creditText {
+    border-top: 1px solid #0c253c;
+}
+
+.creditText p {
+    font-size: 14px;
+    margin: 15px 0 0;
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.3s ease 0s;
+    font-weight: 300;
+
+}
+/* footer area */
+
+#creditArea {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    background-color: #f5f5f5;
+}
+
+/* footer area */
+
+/* image gallary */
+.profileInfo {
+    border: 1px solid;
+    border-radius: 6px;
+    float: left;
+    margin: 10px 10px;
+    transition: all 0.2s ease 0s;
+}
+
+.profileInfo:hover {
+    border-color: #ffffff;
+}
+
+.userName > p {
+    color: darkgoldenrod;
+    font-size: 20px;
+    text-align: center;
+}
+
+.userName {
+    margin: 15px 0;
+}
+
+.userIcons > a{
+    color: goldenrod;
+}
+
+.userIcons {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.profilePic img {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    transition: all 0.2s ease 0s;
+}
+
+.profilePic img:hover {
+    box-shadow: 2px 2px 10px darkblue;
+    transition: all 0.2s ease 0s;
+}
+/* image gallary */
+.projectLogo {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin: 10px 0;
+    opacity: 0.60;
+}
+
+.projectLogo:hover {
+    border: 4px solid transparent;
+    opacity: 1;
+    transition: all 0.4s ease 0.01s;
+}
+
